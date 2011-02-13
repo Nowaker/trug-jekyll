@@ -1,0 +1,12 @@
+#preso, #footer {
+	width: 960px !important;
+}
+
+#preso {
+	height: 500px !important;
+}
+
+div.slide > div.content {
+	margin-top: 0px !important;
+}
+
