@@ -1,5 +1,15 @@
 !SLIDE smbullets
 
+# alternative blogging
+
+## play without Wordpress
+
+# <br/><br/>
+
+### Trójmiasto Ruby User Group, Feb 2011
+
+!SLIDE smbullets
+
 # the exercise
 
 - name five blog engines you can deploy on your server
