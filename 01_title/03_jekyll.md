@@ -42,9 +42,7 @@
 
 - `{{ post.date | date: "%h %Y" }}`
 - `{{ post.title | upcase }}`
-- <br/>
-- [https://github.com/tobi/liquid/wiki/liquid-for-designers](https://github.com/tobi/liquid/wiki/liquid-for-designers)
-
+- `{{ post.content | truncatewords: 20 }}`
 
 
 !SLIDE smbullets
@@ -65,10 +63,6 @@
 
 
 
-
-
-
-
 !SLIDE smbullets
 
 # for-each loop
@@ -76,5 +70,52 @@
 - `{% for post in site.related_posts limit:3 %}`
 - `<a href="{{ post.url }}"> {{ post.title }} </a>`
 - `{% endfor %}`
+
+
+
+!SLIDE smbullets
+
+# more about Liquid
+
+- [https://github.com/tobi/liquid/wiki/liquid-for-designers](https://github.com/tobi/liquid/wiki/liquid-for-designers)
+
+
+
+!SLIDE
+
+# YAML Front Matter
+
+    ---
+    layout: post
+    title: Lightweight blogging with Jekyll
+    keywords: jekyll, blogging
+    categories:
+    - ruby
+    - blog
+    ---
+
+
+
+!SLIDE 
+
+# _config.yml
+
+    auto:        auto
+    server_port: 4000
+    lsi:         true
+    pygments:    false
+    markdown:    maruku
+    permalink:   post/:title.html
+    
+    hello:       Hallo Welt!
+    trug:        should meet more often
+
+
+
+!SLIDE smbullets
+
+# let's play
+
+
 
 
