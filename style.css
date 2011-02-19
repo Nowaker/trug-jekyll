@@ -1,4 +1,4 @@
-#preso, #footer {
+#preso, #footer, .slide {
 	width: 960px !important;
 }
 
@@ -14,4 +14,12 @@ div.slide > div.content {
 	text-align: center;
 }
 
+img[src='/nowaker.png'] {
+	display: none;
+}
+
+ul, li {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
 
