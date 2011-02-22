@@ -44,5 +44,5 @@
 
 !SLIDE smbullets
 
-# `<yawn />`
+# \<yawn /\>
 
