@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+Hej - {{ site.hello }}
+
+<br/>
+Posty:
+<br/>
+
+{% for post in site.posts %}
+<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+
+

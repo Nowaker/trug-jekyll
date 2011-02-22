@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<link rel="stylesheet" href="/pygments.css" type="text/css" />
+</head>
+<body>
+<a href="/">home</a><br/>
+{{ content }}
+
+{% include footer.html %}
+
+</body>
+</html>

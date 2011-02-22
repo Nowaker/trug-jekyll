@@ -1,0 +1,68 @@
+/* Railscasts theme for Pygments: https://github.com/DrMegahertz/pygments-style-railscasts/raw/master/railscasts.py */
+/* CSS generated via `pygmentize -S railscasts -f html` */
+
+.highlight {
+	padding: 2px 8px;
+	background-color: #2B2B2B;
+}
+
+.highlight code {
+	font-family: 'Monospaced', 'Monospace', monospace;
+	font-size: 13px;
+}
+
+.ruby .hll { background-color: #e6e1dc }
+.ruby .c { color: #bc9458; font-style: italic } /* Comment */
+.ruby .err { color: #ffc66d } /* Error */
+.ruby .k { color: #cc7833 } /* Keyword */
+.ruby .n { color: #f0f0f0 } /* Name */
+.ruby .o { color: #f0f0f0 } /* Operator */
+.ruby .p { color: #f0f0f0 } /* Punctuation */
+.ruby .cm { color: #bc9458; font-style: italic } /* Comment.Multiline */
+.ruby .cp { color: #bc9458; font-style: italic } /* Comment.Preproc */
+.ruby .c1 { color: #bc9458; font-style: italic } /* Comment.Single */
+.ruby .cs { color: #bc9458; font-style: italic } /* Comment.Special */
+.ruby .kc { color: #cc7833 } /* Keyword.Constant */
+.ruby .kd { color: #cc7833 } /* Keyword.Declaration */
+.ruby .kn { color: #cc7833 } /* Keyword.Namespace */
+.ruby .kp { color: #cc7833 } /* Keyword.Pseudo */
+.ruby .kr { color: #da4939 } /* Keyword.Reserved */
+.ruby .kt { color: #5a647e } /* Keyword.Type */
+.ruby .m { color: #a5c261 } /* Literal.Number */
+.ruby .s { color: #a5c261 } /* Literal.String */
+.ruby .na { color: #f0f0f0 } /* Name.Attribute */
+.ruby .nb { color: #6d9cbe } /* Name.Builtin */
+.ruby .nc { color: #ffc66d } /* Name.Class */
+.ruby .no { color: #6d9cbe } /* Name.Constant */
+.ruby .nd { color: #da4939 } /* Name.Decorator */
+.ruby .ni { color: #f0f0f0 } /* Name.Entity */
+.ruby .ne { color: #f0f0f0 } /* Name.Exception */
+.ruby .nf { color: #ffc66d } /* Name.Function */
+.ruby .nl { color: #f0f0f0 } /* Name.Label */
+.ruby .nn { color: #f0f0f0 } /* Name.Namespace */
+.ruby .nx { color: #f0f0f0 } /* Name.Other */
+.ruby .py { color: #f0f0f0 } /* Name.Property */
+.ruby .nt { color: #f0f0f0 } /* Name.Tag */
+.ruby .nv { color: #f0f0f0 } /* Name.Variable */
+.ruby .ow { color: #cc7833 } /* Operator.Word */
+.ruby .mf { color: #a5c261 } /* Literal.Number.Float */
+.ruby .mh { color: #a5c261 } /* Literal.Number.Hex */
+.ruby .mi { color: #a5c261 } /* Literal.Number.Integer */
+.ruby .mo { color: #a5c261 } /* Literal.Number.Oct */
+.ruby .sb { color: #a5c261 } /* Literal.String.Backtick */
+.ruby .sc { color: #a5c261 } /* Literal.String.Char */
+.ruby .sd { color: #a5c261 } /* Literal.String.Doc */
+.ruby .s2 { color: #a5c261 } /* Literal.String.Double */
+.ruby .se { color: #da4939 } /* Literal.String.Escape */
+.ruby .sh { color: #a5c261 } /* Literal.String.Heredoc */
+.ruby .si { color: #a5c261 } /* Literal.String.Interpol */
+.ruby .sx { color: #a5c261 } /* Literal.String.Other */
+.ruby .sr { color: #a5c261 } /* Literal.String.Regex */
+.ruby .s1 { color: #a5c261 } /* Literal.String.Single */
+.ruby .ss { color: #a5c261 } /* Literal.String.Symbol */
+.ruby .bp { color: #5a647e } /* Name.Builtin.Pseudo */
+.ruby .vc { color: #f0f0f0 } /* Name.Variable.Class */
+.ruby .vg { color: #f0f0f0 } /* Name.Variable.Global */
+.ruby .vi { color: #f0f0f0 } /* Name.Variable.Instance */
+.ruby .il { color: #a5c261 } /* Literal.Number.Integer.Long */
+

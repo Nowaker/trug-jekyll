@@ -1,0 +1,15 @@
+---
+title: TRUG first post
+hello: Witaj, TRUG.
+layout: default
+categories:
+  - one
+  - dupa
+layout: post
+---
+
+# Mój pierwszy blogpost
+
+Fakje.
+
+

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+Categories:
+<ul>
+{% for category in page.categories %}
+<li><a href="/tag.html#{{ category }}">{{ category }}</a></li>
+{% endfor %}
+</ul>
+
+BLA <br/>
+{{ content }}
+BLA <br/>
+
+

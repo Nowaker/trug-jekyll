@@ -1,0 +1,9 @@
+auto:        auto
+server_port: 4000
+lsi:         true
+pygments:    true
+markdown:    maruku
+permalink:   post/:title.html
+hello:       Hallo Welt!
+trug:        should meet more often
+title:       TRUG FTW
