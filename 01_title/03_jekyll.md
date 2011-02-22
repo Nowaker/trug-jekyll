@@ -42,7 +42,7 @@
 
 - `{{ post.date | date: "%h %Y" }}`
 - `{{ post.title | upcase }}`
-- `{{ post.content | truncatewords: 20 }}`
+- `{{ post.content | strip_html | truncatewords: 20 }}`
 
 
 !SLIDE smbullets
