@@ -4,7 +4,7 @@ hello: Witaj, TRUG.
 layout: default
 categories:
   - one
-  - dupa
+  - two
 layout: post
 ---
 
